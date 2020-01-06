@@ -1,6 +1,5 @@
 import React from "react";
 import WeatherLocation from "./components/WeatherLocation";
-import "./Index.css";
 function App() {
   return (
     <div className="App">

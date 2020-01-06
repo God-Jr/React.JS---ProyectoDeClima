@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Location from './Location';
 import WeatherData from './WeatherData';
+import './styles.css'
 
 class WeatherLocation extends Component {
     render() {
         return (
-            <div>
-                <Location city={"Rio de Janeiro"} />
-                <WeatherData />
-            </div>
+          <div className="weatherLocationCont">
+            <Location city={"Barcelona"} />
+            <WeatherData />
+          </div>
         );
     }
 }
