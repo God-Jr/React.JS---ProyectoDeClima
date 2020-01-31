@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import "./styles.css";
 
 function Location({ city }) {
-  //DESTRUCTURING
-  // const { city } = props;
 
   return (
     <div className="LocationCont">
